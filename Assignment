@@ -1,0 +1,25 @@
+'''Write a Program to calculate the Simple Interest for Bank Customer for Fixed Deposit
+
+a) If customer is Female & Senior Citizen, Rate - 8%
+
+b) If customer is Female & Non Senior Citizen, Rate - 6%
+
+c) If customer is Male & Senior Citizen, Rate - 7%
+
+d) If customer is Male & Non Senior Citizen, Rate - 5%'''
+
+Amount=float(input("Enter your Amount: "))
+Time=float(input("Enter Time: "))
+SEX=input("Enter your Gender(M/F): ")
+AGE=int(input("Enter your age: "))
+Interest=(Amount*Time)/100
+if SEX=='F' or SEX=='f'
+  if AGE >=60:
+   print(Interest*8)
+  else:
+   print(Interest*6)
+elif SEX=='M' or SEX=='m'
+  if AGE >=60 :
+   print(Interest*7)
+  else:
+   print(Interest*5)
