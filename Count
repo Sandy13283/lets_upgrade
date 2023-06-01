@@ -1,0 +1,13 @@
+Write a Python to count number of odd and even number from the series of the list:
+[ 2,3,4,55,56,78,75,69,66,101,100 ]
+# Code below is able to identified total no of even and odd numbers in the list 
+
+A=[ 2,3,4,55,56,78,75,69,66,101,100 ]
+Even=0
+odd=0
+for i in A:
+  if i%2==0:
+    Even+=1
+  else:
+    odd+=1
+print(f"There are {Even} even and {odd} odd numbers")
